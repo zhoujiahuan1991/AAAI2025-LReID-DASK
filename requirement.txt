@@ -1,11 +1,14 @@
 Cython
+einops
 easydict
 huggingface-hub
+h5py
 imageio
 matplotlib
 numpy
 opencv-python
 pandas
+prettytable
 Pillow
 PyYAML
 scikit-image
@@ -16,4 +19,5 @@ tensorboard
 timm
 tqdm
 yacs
+visdom
 
