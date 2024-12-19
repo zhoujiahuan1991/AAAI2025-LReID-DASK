@@ -83,7 +83,7 @@ The following results were obtained with a single NVIDIA 4090 GPU:
 ![Results](figs/results.png)
 
 ## Citation
-If you find this code useful for your research, please cite our paper.
+### If you find this code useful for your research, please cite our paper.
 
 @article{xu2024dask,
   title={DASK: Distribution Rehearsing via Adaptive Style Kernel Learning for Exemplar-Free Lifelong Person Re-Identification},
@@ -92,7 +92,54 @@ If you find this code useful for your research, please cite our paper.
   year={2025}
 }
 
-[1] Kunlun Xu, Chenghao Jiang, Peixi Xiong, Yuxin Peng, and Jiahuan Zhou. DASK: Distribution Rehearsing via Adaptive Style Kernel Learning for Exemplar-Free Lifelong Person Re-Identification[C]//Proceedings of the AAAI conference on artificial intelligence. 2025. 
+### We have conducted a series of research in Lifelong Person Re-Identification as follows.
+#### Feature-level Distribution Modeling and Prototyping:
+@inproceedings{xu2024distribution,
+  title={Distribution-aware Knowledge Prototyping for Non-exemplar Lifelong Person Re-identification},
+  author={Xu, Kunlun and Zou, Xu and Peng, Yuxin and Zhou, Jiahuan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={16604--16613},
+  year={2024}
+}
+
+#### Long Short-Term Knowledge Rectification and Consolidation:
+@inproceedings{xu2024lstkc,
+  title={LSTKC: Long Short-Term Knowledge Consolidation for Lifelong Person Re-identification},
+  author={Xu, Kunlun and Zou, Xu and Zhou, Jiahuan},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={14},
+  pages={16202--16210},
+  year={2024}
+}
+
+#### Lifelong Learning with Label Noise: 
+@inproceedings{xu2024mitigate,
+  title={Mitigate Catastrophic Remembering via Continual Knowledge Purification for Noisy Lifelong Person Re-Identification},
+  author={Xu, Kunlun and Zhang, Haozhuo and Li, Yu and Peng, Yuxin and Zhou, Jiahuan},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={5790--5799},
+  year={2024}
+}
+
+#### Prompt-guided Adaptive Knowledge Consolidation:
+@article{li2024exemplar,
+  title={Exemplar-Free Lifelong Person Re-identification via Prompt-Guided Adaptive Knowledge Consolidation},
+  author={Li, Qiwei and Xu, Kunlun and Peng, Yuxin and Zhou, Jiahuan},
+  journal={International Journal of Computer Vision},
+  pages={1--16},
+  year={2024},
+  publisher={Springer}
+}
+
+#### Compatible Lifelong Learning:
+@inproceedings{cui2024learning,
+  title={Learning Continual Compatible Representation for Re-indexing Free Lifelong Person Re-identification},
+  author={Cui, Zhenyu and Zhou, Jiahuan and Wang, Xun and Zhu, Manyu and Peng, Yuxin},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={16614--16623},
+  year={2024}
+}
 
 ## Acknowledgement
 Our code is based on the PyTorch implementation of [LSTKC](https://github.com/zhoujiahuan1991/AAAI2024-LSTKC) and [CoP](https://github.com/vimar-gu/ColorPromptReID).
