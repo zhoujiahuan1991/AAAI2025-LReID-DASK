@@ -1,4 +1,21 @@
-# [AAAI2025] DASK: Distribution Rehearsing via Adaptive Style Kernel Learning for Exemplar-Free Lifelong Person Re-Identification 
+# [AAAI2025] DASK: Distribution Rehearsing via Adaptive Style Kernel Learning for Exemplar-Free Lifelong Person Re-Identification
+
+<div align="center">
+
+<div>
+      Kunlun Xu<sup>1</sup>&emsp; Chenghao Jiang<sup>1</sup>&emsp; Peixi Xiong<sup>2</sup>&emsp; Yuxin Peng<sup>1</sup>&emsp; Jiahuan Zhou<sup>1*</sup>
+  </div>
+<div>
+
+  <sup>1</sup>Wangxuan Institute of Computer Technology, Peking University&emsp; <sup>2</sup>Intel Labs
+
+</div>
+</div>
+<p align="center">
+  <a href='https://arxiv.org/abs/2412.09224'><img src='https://img.shields.io/badge/Arxiv-2412.08929-A42C25.svg?logo=arXiv'></a>
+  <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fzhoujiahuan1991%2FAAAI2025-LReID-DASK&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
+</p>
+
 The *official* repository for  [DASK: Distribution Rehearsing via Adaptive Style Kernel Learning for Exemplar-Free Lifelong Person Re-Identification](https://aaai.org/wp-content/uploads/2024/02/AAAI-24_Main_2024-02-01.pdf).
 
 ![Framework](figs/framework.png)
@@ -67,6 +84,13 @@ The following results were obtained with a single NVIDIA 4090 GPU:
 
 ## Citation
 If you find this code useful for your research, please cite our paper.
+
+@article{xu2024dask,
+  title={DASK: Distribution Rehearsing via Adaptive Style Kernel Learning for Exemplar-Free Lifelong Person Re-Identification},
+  author={Xu, Kunlun and Jiang, Chenghao and Xiong, Peixi and Peng, Yuxin and Zhou, Jiahuan},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence}, 
+  year={2025}
+}
 
 [1] Kunlun Xu, Chenghao Jiang, Peixi Xiong, Yuxin Peng, and Jiahuan Zhou. DASK: Distribution Rehearsing via Adaptive Style Kernel Learning for Exemplar-Free Lifelong Person Re-Identification[C]//Proceedings of the AAAI conference on artificial intelligence. 2025. 
 
