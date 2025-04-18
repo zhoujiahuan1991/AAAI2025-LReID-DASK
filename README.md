@@ -13,7 +13,7 @@
 </div>
 <p align="center">
   <a href='https://arxiv.org/abs/2412.09224'><img src='https://img.shields.io/badge/Arxiv-2412.08929-A42C25.svg?logo=arXiv'></a>
-      <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fzhoujiahuan1991%2FAAAI2025-LReID-DASK&label=&icon=github&color=%23198754">
+      <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2Fzhoujiahuan1991%2FAAAI2025-LReID-DASK&label=DASK&icon=github&color=%23198754">
 </p>
 
 The *official* repository for  [DASK: Distribution Rehearsing via Adaptive Style Kernel Learning for Exemplar-Free Lifelong Person Re-Identification](https://arxiv.org/abs/2412.09224).
